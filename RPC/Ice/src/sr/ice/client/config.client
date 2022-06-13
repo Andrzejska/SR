@@ -1,0 +1,8 @@
+TempSensor1.Proxy=sensor/tempSensor1:tcp -h localhost -p 10000:udp -h localhost -p 10000
+
+HumSensor1.Proxy=sensor/humSensor1:tcp -h localhost -p 10000:udp -h localhost -p 10000
+HumSensor2.Proxy=sensor/humSensor2:tcp -h localhost -p 10000:udp -h localhost -p 10000
+
+LightBulb1.Proxy=lightBulb/lightBulb1:tcp -h localhost -p 10000:udp -h localhost -p 10000
+
+Humidifier1.Proxy=humidifier/humidifier1:tcp -h localhost -p 10000:udp -h localhost -p 10000
